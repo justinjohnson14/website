@@ -6,55 +6,68 @@
     <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-    <div>
-        <div class="navigation">
-            <ul>
-                <li><a><img src="images/btn_basket.gif"/></a></li>
-                <li><a><img src="images/btn_contact.gif"/></a></li>
-                <li><a><img src="images/btn_map.gif"/></a></li>
-            </ul>
-            <form>
-                <input type="search" >
-                <input type="image" src="images/btn_add.gif">
-            </form>
-        </div>
-
-        <div class="main">
-            <div class="left-side">
-                <img src="images/logo_home.gif"/>
-                <img src="images/home_pic1.jpg"/>
-                <div class="news">
-                    <img src="images/txt_news.gif">
-                    <h3>
-                        Bouchaine...making award-winning wines that define our sense of place
-                        in Napa Valley's Carneros region.
-                    </h3>
-                    <p>
-                        2005 Winter Schedule: Bouchaine will be closed on Sundays through April
-                        10th, except by appointment.
-                    </p>
-                </div>
+<div class="page">
+    <div class="navigation">
+        <br>
+        <ul>
+            <li>
+                <form id="search">
+                    <input type="search" value="eNewsletter Signup">
+                    <input type="image" src="images/btn_add.gif" alt="Submit button">
+                </form>
+            </li>
+            <li><a><img src="images/btn_map.gif" width="39" height="20" alt="Map"/></a></li>
+            <li><a><img src="images/btn_contact.gif" width="70" height="20" alt="Contact"/></a></li>
+            <li><a><img src="images/btn_basket.gif" width="51" height="20" alt="Shopping basket"/></a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <img src="images/logo_home.gif" width="330" height="125" alt="Bouchaine Logo">
             </div>
-            <div class="right-side">
-                <img src="images/bnr_newsletter.gif"/>
-                <img src="images/home_pic2.jpg"/>
-                <img src="images/home_pic_bgate.jpg">
-                <img src="images/bnr_join_cellarmaster.gif">
+            <div class="grid-item item2">
+                <img src="images/bnr_newsletter.gif" width="217" height="119" alt="Newletter image">
             </div>
-        </div>
-
-        <div class="footer">
-            <img src="images/txt_footer.gif"/>
-            <ul>
-                <li><a>The Winery</a></li>
-                <li><a>Our Wines</a></li>
-                <li><a>Virtual Store</a></li>
-                <li><a>News & Events</a></li>
-                <li><a>Newsletters</a></li>
-                <li><a>Trade</a></li>
-            </ul>
-            <img src="images/mark_camaleo_60.gif"/>
+            <div class="grid-item item3">
+                <img src="images/home_pic2.jpg" width="192" height="256" alt="Purple grapes">
+            </div>
+            <div class="grid-item item4">
+                <img src="images/home_pic1.jpg" width="141" height="256" alt="Green grapes">
+            </div>
+            <div class="grid-item item5">
+                <img src="images/txt_news.gif" width="170" height="23" alt="News header">
+                <p id="news-text">Spring-the perfect time to focus on vineyards! Bouchaine participates in two local
+                    events: Napa Vintner's "Afternoon in the Vineyards" event on 5/15/04 and Napa Sustainable
+                    Winegrowing Group's Fundraiser event on 5/16/04! More info: go to News & Events, click on
+                    Events!</p>
+            </div>
+            <div class="grid-item item6">
+                <img src="images/home_pic_bgate.jpg" width="217" height="258" alt="Bouchain Gate">
+            </div>
+            <div class="grid-item item7">
+                <img src="images/bnr_join_cellarmaster.gif" height="121" width="192" alt="Join the cellar master">
+            </div>
         </div>
     </div>
+    <div class="footer">
+        <img src="images/txt_footer.gif" width="750" height="27" alt="Contact information" usemap="#contact-map"/>
+        <br/>
+        <ul class="bottom-nav">
+            <li><a>The Winery</a></li>
+            <li><a>Our Wines</a></li>
+            <li><a>Virtual Store</a></li>
+            <li><a>News & Events</a></li>
+            <li><a>Newsletters</a></li>
+            <li><a>Trade</a></li>
+        </ul>
+        <img src="images/mark_camaleo_60.gif" width="60" height="14" alt="mark camaleo"
+             style="margin: auto; width: auto;"/>
+        <map name="contact-map">
+            <area shape="rect" coords="0,0,296,26" alt="Address" href="https://goo.gl/maps/ud7HuHHKhyAm91Hg7"/>
+            <area shape="rect" coords="299,0,417,26" alt="Email" href="mailto:info@bouchaine.com"/>
+        </map>
+    </div>
+</div>
 </body>
 </html>
